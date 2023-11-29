@@ -6,21 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Wedding</title>
     <!-- Link to Custom Styles CSS -->
-    <link rel="stylesheet" href="Homepage.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Footer.css">
     
     <!-- Link to Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        /* Initially hide the search input */
-        .search-form input {
-            display: none;
-        }
-
-        /* Show the search input when the form has the "active" class */
-        .search-form.active input {
-            display: inline-block;
-        }
-    </style>
+    
     
     
 </head>
@@ -67,6 +58,33 @@
         </div>
     </nav>
     
+     <!-- Footer -->
+    <footer>
+        <div class="footer-left">
+            <!-- Calendar -->
+            <img src="calendar-icon.png" alt="Calendar" width="30">
+            <!-- You can replace the above src with the actual path to your calendar icon -->
+        </div>
+        <div class="footer-middle">
+            <!-- Menu -->
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="#">Home</a></li><br/>
+                <li><a href="#">About Us</a></li><br/>
+                <li><a href="#">Contact Us</a></li><br/>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <!-- Find us on -->
+            <h3>Find us on</h3>
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a><br/>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a><br/>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a><br/>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a><br/>
+            </div>
+        </div>
+    </footer>
     
     <script>
         function toggleSearch() {

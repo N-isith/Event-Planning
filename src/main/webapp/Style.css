@@ -95,6 +95,8 @@ header {
     cursor: pointer;
 }
 
+
+
 /* Responsive styles */
 @media (max-width: 768px) {
     header {
@@ -115,3 +117,15 @@ header {
         margin: 10px 0;
     }
 }
+
+/* Initially hide the search input */
+.search-form input {
+	display: none;
+}
+
+/* Show the search input when the form has the "active" class */
+.search-form.active input {
+	display: inline-block;
+}
+
+
