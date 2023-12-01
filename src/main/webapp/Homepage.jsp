@@ -61,10 +61,9 @@
      <!-- Footer -->
     <footer>
         <div class="footer-left">
-            <!-- Calendar -->
-            <img src="calendar-icon.png" alt="Calendar" width="30">
-            <!-- You can replace the above src with the actual path to your calendar icon -->
-        </div>
+        	<!-- Replace the calendar image with Google Calendar embed code -->
+        	<iframe src="https://calendar.google.com/calendar/embed?src=nisithalakshan94%40gmail.com&ctz=UTC"></iframe>
+    	</div>
         <div class="footer-middle">
             <!-- Menu -->
             <h3>Menu</h3>
@@ -92,7 +91,6 @@
             searchForm.classList.toggle('active');
         }
     </script>
-    
     
 
 </body>

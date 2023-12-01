@@ -1,3 +1,5 @@
+@charset "ISO-8859-1";
+
 /* Reset some default styles */
 body, h1, h2, h3, p, ul {
     margin: 0;
@@ -13,7 +15,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #fff;
+    background-color:#fff;
     padding: 10px 20px;
     box-shadow: 0 0 10px rgba(10, 30, 0, 0.1);
     display: flex;
@@ -28,20 +30,32 @@ header {
 #signInSignUp a {
     margin-left: 20px;
     text-decoration: none;
-    color: #333;
     font-weight: bold;
-    border: 2px solid rgb(155, 40, 0); 
-	border-radius: 15px;
+    border: 2px solid rgb(205, 185, 00); 
+	border-radius: 20px;
 	padding: 15px;
 }
 
+.signin{
+	color:midnightblue;
+}
+
+.signin:hover{
+	color:yellow;
+	background-color:midnightblue;
+}
+
 .signup{
-	background-color: darkkhaki;
+	color:yellow;
+	background-color:midnightblue;
 }
 
 /* Navigation styles */
 .navbar {
-    background-color:darkkhaki;
+    background-color: midnightblue;
+    width: 70%;
+    margin-left: 270px;
+    border-radius: 10px;
 }
 
 .navbar-nav {
@@ -65,7 +79,7 @@ header {
 }
 
 .nav-link:hover {
-    color: rgb(155, 40, 0);
+    color: rgb(205, 185, 00);
 }
 
 /* Search option styles */

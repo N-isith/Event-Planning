@@ -1,7 +1,8 @@
 /* Footer styles */
 footer {
-    background-color: darkkhaki;
-    color: #333;
+    background-color:midnightblue;
+    height: 250px;
+    color:aliceblue;
     padding: 20px;
     margin-top: 440px; /* Adjust as needed */
     margin-bottom: 10px;
@@ -9,6 +10,12 @@ footer {
     justify-content: space-between;
     align-items: center;
     border-radius: 20px;; /* Adjust the radius as needed */
+}
+
+.footer-left iframe {
+    width: 350px; /* Adjust as needed */
+    height: 250px; /* Adjust as needed */
+    background-color: aliceblue; /* Set a dark background color */
 }
 
 /* Menu */
@@ -31,7 +38,7 @@ footer {
 }
 
 .footer-middle a {
-    color: #333;
+    color: aliceblue;
     text-decoration: none;
     font-size: 18px; /* Adjust as needed */
 }
@@ -49,7 +56,12 @@ footer {
 .social-icons a {
     margin-right: 10px;
     margin-bottom: 20px; /* Add margin-bottom for gap between social icons */
-    color: #333;
+    color: aliceblue;
     text-decoration: none;
     font-size: 18px; /* Adjust as needed */
+}
+
+.social-icons a i {
+    font-size: 24px; /* Adjust the size as needed */
+    padding: 10px;
 }
