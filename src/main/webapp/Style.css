@@ -13,18 +13,22 @@ body {
     color: #333;
 }
 
+.theHeader{
+	background-color: #fff;
+    box-shadow: 0 0 10px rgba(10, 30, 0, 0.1);
+}
+
 /* Header styles */
 header {
     background-color:#fff;
     padding: 10px 20px;
-    box-shadow: 0 0 10px rgba(10, 30, 0, 0.1);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 #logo img {
-    max-width: 100%;
+    max-width: 200%;
 }
 
 #signInSignUp a {
@@ -54,7 +58,7 @@ header {
 .navbar {
     background-color: midnightblue;
     width: 70%;
-    margin-left: 270px;
+    margin: 0 auto;
     border-radius: 10px;
 }
 
@@ -90,7 +94,7 @@ header {
 
 .search-form input {
     display: none;
-    border: 2px solid rgb(155, 40, 0);
+    border: 2px solid rgb(205, 185, 00);
     border-radius: 15px;
     padding: 10px;
     font-size: 16px;
@@ -142,4 +146,101 @@ header {
 	display: inline-block;
 }
 
+/* Footer styles */
+footer {
+    background-color:midnightblue;
+    height: 250px;
+    color:aliceblue;
+    padding: 20px;
+    margin-top: 440px; /* Adjust as needed */
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;; /* Adjust the radius as needed */
+}
 
+.footer-left iframe {
+    width: 350px; /* Adjust as needed */
+    height: 250px; /* Adjust as needed */
+    background-color: aliceblue; /* Set a dark background color */
+}
+
+/* Menu */
+.footer-middle {
+    text-align: center;
+}
+
+.footer-middle h3 {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 24px; /* Adjust as needed */
+}
+
+.footer-middle ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-middle li {
+    margin-bottom: 5px; /* Adjust as needed for spacing between menu items */
+}
+
+.footer-middle a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px; /* Adjust as needed */
+}
+
+.footer-middle a:hover {
+    color: rgb(205, 185, 00);
+    text-decoration: underline;
+    font-size: 18px; /* Adjust as needed */
+}
+
+/* Find us on */
+.footer-right {
+    text-align: center;
+}
+
+#logofoot img{
+	padding-bottom: 40px;
+}
+
+.footer-right h3 {
+    margin-bottom: 10px;
+    font-size: 24px; /* Adjust as needed */
+}
+
+.social-icons a {
+    margin-right: 10px;
+    margin-bottom: 20px; /* Add margin-bottom for gap between social icons */
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px; /* Adjust as needed */
+}
+
+.social-icons a i {
+    font-size: 24px; /* Adjust the size as needed */
+    padding: 10px;
+}
+
+.social-icons a i:hover {
+	color: rgb(205, 185, 00);
+    font-size: 24px; /* Adjust the size as needed */
+    padding: 10px;
+}
+
+/* Add these styles to your existing Style.css file or create a new one */
+
+#calendar-container {
+    border: 2px solid rgb(205, 185, 00); /* Orange border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: gray; /* Light yellow background color */
+    padding: 10px; /* Add padding for better visual */
+}
+
+#calendar-container h3 {
+    color: rgb(205, 185, 00); /* Orange color for the month and year */
+    text-align: center;
+}
