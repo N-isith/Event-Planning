@@ -146,6 +146,31 @@ header {
 	display: inline-block;
 }
 
+.AboutT {
+	font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: auto;
+    max-width: 600px; /* Adjust the max-width as needed */
+    padding: 20px;
+    box-shadow: 0 0 60px rgba(10, 30, 0, 0.5);
+    border-radius: 20px;
+}
+
+.AboutT p, .AboutT h2 {
+    font-size: 1.5em; /* Adjust the font size as needed */
+    margin: 10px 0; /* Add some margin for spacing */
+}
+
+.About1 {
+	font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: left;
+    max-width: 600px; /* Adjust the max-width as needed */
+    padding: 20px;
+    box-shadow: 0 0 60px rgba(10, 30, 0, 0.5);
+    border-radius: 20px;
+}
+
 /* Footer styles */
 footer {
     background-color:midnightblue;

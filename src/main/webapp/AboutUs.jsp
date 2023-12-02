@@ -60,7 +60,16 @@
     </div>
     
     
-    <p>Homepage</p>
+    <div class="AboutT">
+    	<h1>We Are Lak Weddings</h1>
+    	<p>We bring</p><h2>Dream Weddings</h2><p> to life!!</p>
+    </div>
+    
+    
+    <div class="About1">
+    	<p></p>
+    </div>
+    
     
      <!-- Footer -->
     <footer>
