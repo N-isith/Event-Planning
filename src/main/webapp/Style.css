@@ -147,12 +147,13 @@ header {
 }
 
 .AboutT {
+	background-color: rgba(205, 185, 00, 0.43);
 	font-family: 'Times New Roman', Times, serif;
     text-align: center;
     margin: auto;
     max-width: 600px; /* Adjust the max-width as needed */
     padding: 20px;
-    box-shadow: 0 0 60px rgba(10, 30, 0, 0.5);
+    box-shadow: 0 0 60px rgba(10, 30, 100, 0.5);
     border-radius: 20px;
 }
 
@@ -162,12 +163,24 @@ header {
 }
 
 .About1 {
+	float:left;
+	margin-left: 100px;
+	background-color: rgba(205, 185, 00, 0.13);
 	font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    margin: left;
     max-width: 600px; /* Adjust the max-width as needed */
     padding: 20px;
-    box-shadow: 0 0 60px rgba(10, 30, 0, 0.5);
+    box-shadow: 0 0 40px rgba(10, 30, 100, 0.5);
+    border-radius: 20px;
+}
+	
+.About2 {
+	margin-right: 100px;
+	float:right;
+	background-color: rgba(205, 185, 00, 0.13);
+	font-family: 'Times New Roman', Times, serif;
+    max-width: 600px; /* Adjust the max-width as needed */
+    padding: 20px;
+    box-shadow: 0 0 40px rgba(10, 30, 100, 0.5);
     border-radius: 20px;
 }
 
