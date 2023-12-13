@@ -146,6 +146,45 @@ header {
 	display: inline-block;
 }
 
+h1{
+	margin: 20px;
+}
+
+.Home{
+	background-color: rgba(205, 185, 00, 0.43);
+	font-family: 'Times New Roman', Times, serif;
+	font-size:50px;
+    text-align: center;
+    margin: auto;
+    max-width: 800px; /* Adjust the max-width as needed */
+    padding: 20px;
+    box-shadow: 0 0 60px rgba(10, 30, 100, 0.5);
+    border-radius: 20px;
+	
+}
+
+.Home1{
+	background-color: rgba(205, 185, 00, 0.43);
+	font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: auto;
+    max-width: 600px; /* Adjust the max-width as needed */
+    padding: 20px;
+    box-shadow: 0 0 60px rgba(10, 30, 100, 0.5);
+    border-radius: 20px;
+}
+
+.Home2{
+	background-color: rgba(205, 185, 00, 0.43);
+	font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: auto;
+    max-width: 600px; /* Adjust the max-width as needed */
+    padding: 20px;
+    box-shadow: 0 0 60px rgba(10, 30, 100, 0.5);
+    border-radius: 20px;
+}
+
 .AboutT {
 	background-color: rgba(205, 185, 00, 0.43);
 	font-family: 'Times New Roman', Times, serif;
@@ -171,6 +210,7 @@ header {
     padding: 20px;
     box-shadow: 0 0 40px rgba(10, 30, 100, 0.5);
     border-radius: 20px;
+    word-wrap: break-word;
 }
 	
 .About2 {
@@ -182,6 +222,7 @@ header {
     padding: 20px;
     box-shadow: 0 0 40px rgba(10, 30, 100, 0.5);
     border-radius: 20px;
+    word-wrap: break-word;
 }
 
 /* Footer styles */

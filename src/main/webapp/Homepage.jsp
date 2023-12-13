@@ -59,8 +59,24 @@
     </nav>
     </div>
     
+    <h1>     </h1>
     
-    <p>Homepage</p>
+    <div class="Home">
+		<p>Lets Make Your Dream Real!!!</p>
+    </div>
+    
+    <br><br><br><br>
+	<div class="Home1">
+		<img alt="slide1" src="">	
+	</div>
+
+	<br><br><br><br><br><br><br><br><br>
+	<div class="Home2">
+		<img alt="slide2" src="">
+	</div>
+    
+    
+    
     
      <!-- Footer -->
     <footer>
