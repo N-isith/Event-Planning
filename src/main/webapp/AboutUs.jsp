@@ -40,7 +40,7 @@
 					</li>
 					<li class="nav-item"><a class="nav-link" href="#">Gallery</a>
 					</li>
-					<li class="nav-item"><a class="nav-link" href="#">Contact
+					<li class="nav-item"><a class="nav-link" href="ContactUs.jsp">Contact
 							Us</a></li>
 					<!-- Add the Search Form with a Magnifying Glass Icon -->
 					<li class="nav-item">
@@ -117,7 +117,7 @@
 				<br />
 				<li><a href="AboutUs.jsp">About Us</a></li>
 				<br />
-				<li><a href="#">Contact Us</a></li>
+				<li><a href="ContactUs.jsp">Contact Us</a></li>
 				<br />
 			</ul>
 		</div>
