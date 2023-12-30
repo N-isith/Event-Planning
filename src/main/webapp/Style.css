@@ -225,6 +225,20 @@ h1{
     word-wrap: break-word;
 }
 
+.Contact{
+	background-color: rgba(205, 185, 00, 0.43);
+	font-family: 'Times New Roman', Times, serif;
+	font-size:50px;
+    text-align: center;
+    margin: auto;
+    max-width: 1400px; /* Adjust the max-width as needed */
+    max-height: 800px;
+    padding: 20px;
+    box-shadow: 0 0 60px rgba(10, 30, 100, 0.5);
+    border-radius: 20px;
+}
+
+
 /* Footer styles */
 footer {
     background-color:midnightblue;
@@ -323,3 +337,36 @@ footer {
     color: rgb(205, 185, 00); /* Orange color for the month and year */
     text-align: center;
 }
+
+/*contactformpopup*/
+#contactFormPopup {
+    display: none; /* Add this line */
+    /* ... other styles ... */
+}
+
+.popup-content {
+    background-color: #FFFFE0; /* Light yellow background */
+    padding: 20px; /* Padding around the content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    width: 60%; /* Set width to 60% of the viewport */
+    max-width: 400px; /* Set maximum width */
+    height: auto; /* Auto height, can adjust as needed */
+    margin: auto; /* Center horizontally */
+    position: fixed; /* Positioning */
+    top: 50%; /* Align to center vertically */
+    left: 50%; /* Align to center horizontally */
+    transform: translate(-50%, -50%); /* Center using transform */
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    z-index: 1000; /* Place it above other content */
+    display: none; /* Initially hidden */
+}
+
