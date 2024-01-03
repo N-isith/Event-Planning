@@ -337,36 +337,63 @@ footer {
     color: rgb(205, 185, 00); /* Orange color for the month and year */
     text-align: center;
 }
-
-/*contactformpopup*/
-#contactFormPopup {
-    display: none; /* Add this line */
-    /* ... other styles ... */
+* {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        	
+        .container {
+            max-width: 800px;
+            margin: 50px 50px 50px auto; /* Adjusted margin to move container to the right */
+            margin-bottom: -250px;
+            padding: 20px;
+            background-color: #FFFFE0; /* Light yellow container background */
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            flex-grow: 1;            /* Allow container to grow and take available space */
+    		padding-left: 20px;      /* Optional: Add some spacing between the image and container */
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #FFD700; /* Gold color for heading */
+        }
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #FFD700; /* Gold border color */
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            background-color: #FFD700; /* Gold background color for submit button */
+            color: white;
+            border: none;
+            cursor: pointer;
+             padding: 10px; /* Smaller padding for smaller size */
+            font-size: 14px; /* Smaller font size */
+            width: 100px;
+        }
+        input[type="submit"]:hover {
+            background-color: #FFC400; /* Darker yellow on hover */
+        }
+        /* Responsive design */
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+        }
+        
+.contImg img {
+    width: 35%;  /* Adjust the width as per your requirement */
+    height: auto; /* This will maintain the aspect ratio */
+    display: block; /* This ensures that the image respects the set width */
+    margin: 20px; /* Center the image horizontally */
 }
 
-.popup-content {
-    background-color: #FFFFE0; /* Light yellow background */
-    padding: 20px; /* Padding around the content */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
-    width: 60%; /* Set width to 60% of the viewport */
-    max-width: 400px; /* Set maximum width */
-    height: auto; /* Auto height, can adjust as needed */
-    margin: auto; /* Center horizontally */
-    position: fixed; /* Positioning */
-    top: 50%; /* Align to center vertically */
-    left: 50%; /* Align to center horizontally */
-    transform: translate(-50%, -50%); /* Center using transform */
+.fullContainer{
+    display: flex;           /* Use flexbox */
+    align-items: center;     /* Center items vertically */
 }
-
-.modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
-    z-index: 1000; /* Place it above other content */
-    display: none; /* Initially hidden */
-}
-
