@@ -5,10 +5,10 @@
     <meta charset="ISO-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Wedding</title>
-    <!-- Link to Custom Styles CSS -->
-    <link rel="stylesheet" href="Style.css">
+    <!-- Link to Custom Styles CSS 
+    <link rel="stylesheet" href="Style.ss">-->
     
-    <!-- Link to Font Awesome for icons -->
+    <!-- Link to FontAwesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
    
