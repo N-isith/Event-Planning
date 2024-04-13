@@ -29,7 +29,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>
- 
+
     </head>
 
     <body>
@@ -82,7 +82,7 @@
                 </div>
                 <!-- Column for form -->
                 <div class="col-md-7 d-flex align-items-center justify-content-center">
-                    <div class="container p-4 border border-4 rounded-4">
+                    <div class="container p-4 border border-4 rounded-4 border-warning">
                         <div>
                             <h2 class="text text-warning text-center">Contact Us</h2>
                             <h4 class="text text-warning text-center" style="--bs-text-opacity: .5;">If you have any concerns</h4>
@@ -108,7 +108,7 @@
             </div>
         </div>
 
- 
+
 
 
         <!--  footer -->
@@ -176,12 +176,13 @@
                                 </div>
                             </div>
                         </div>
-                        <hr class="my-3">
                     </div>
                     <!--Grid row-->
                 </section>
-                <!-- Section: Copyright -->
                 <!-- Grid container -->
+                <div class="container">
+                    <hr class="my-3 mx-6">
+                </div>
             </footer>
             <!-- Footer -->
         </div>
