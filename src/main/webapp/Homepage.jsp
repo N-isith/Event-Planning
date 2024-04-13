@@ -11,8 +11,9 @@
         <meta name="viewport"
             content="width=device-width, initial-scale=1.0">
         <title>Happy Wedding</title>
+
         <!-- Link to Custom Styles CSS 
-    <link rel="stylesheet" href="Style.ss">-->
+        <link rel="stylesheet" href="Style.ss">-->
 
         <!-- Link to Font Awesome for icons -->
         <link rel="stylesheet"
@@ -32,144 +33,135 @@
     </head>
 
     <body>
-
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
                 <div id="logofoot">
                     <img src="lak_weddings.png" alt="LogoFoot" width="150" height="65">
                 </div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown link
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-              <div class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </div>
-            </div>
-          </nav>
-
-        <h1> </h1>
-
-        <div class="Home">
-            <p>Lets Make Your Dream Real!!!</p>
-        </div>
-
-        
-        <div class="Home1">
-            <img alt="slide1" src="">
-        </div>
-
-        <div class="Home2">
-            <img alt="slide2" src="">
-        </div>
-
-
- <!--  footer -->
-        <!-- Remove the container if you want to extend the Footer to full width. -->
-<div class="bg-dark fixed-bottom">
-    <!-- Footer -->
-    <footer class="text-center text-lg-start text-white">
-      <!-- Grid container -->
-      <div class="container fit-end p-4 pb-0">
-        <!-- Section: Links -->
-        <section class="">
-          <!--Grid row-->
-          <div class="row">
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                <div class="" id="calendar-container">
-                    <!-- the calender -->
-                </div>
-            </div>
-            <!-- Grid column -->
-  
-            <hr class="w-100 clearfix d-md-none" />
-  
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                <div class="">
-                    <!-- Menu -->
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="Homepage.jsp">Home</a></li><br />
-                        <li><a href="AboutUs.jsp">About Us</a></li><br />
-                        <li><a href="ContactUs.jsp">Contact Us</a></li><br />
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown link
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
-            </div>
-            <!-- Grid column -->
-  
-            <hr class="w-100 clearfix d-md-none" />
-  
-            <!-- Grid column -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-center text-md-end">
-                <div class="">
-                    <div id="logofoot">
-                        <img src="lak_weddings.png" alt="LogoFoot" width="200">
-                    </div>
-                    <!-- Find us on -->
-                    <h3 class="text-center">Find us on</h3>
-                    <div>
-                        <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-    
-                <!-- Twitter -->
-                <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button" >
-                    <i class="fab fa-twitter"></i>
-                </a>
-    
-                <!-- Google -->
-                <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button">
-                    <i class="fab fa-google"></i>
-                </a>
-    
-                <!-- Instagram -->
-                <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                    </div>
+                <div class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
                 </div>
             </div>
-          </div>
-          <!--Grid row-->
-        </section>
-        <!-- Section: Links -->
-  
-        <hr class="my-3">
-  
-        
-        <!-- Section: Copyright -->
-      </div>
-      <!-- Grid container -->
-    </footer>
-    <!-- Footer -->
-  </div>
-  <!-- End of .container -->
+        </nav>
+
+        <!--Body of the page-->
+        <div >
+            <div class="Home">
+                <p>Lets Make Your Dream Real!!!</p>
+            </div>
+
+            <div class="Home1">
+                <img alt="slide1" src="">
+            </div>
+
+            <div class="Home2">
+                <img alt="slide2" src="">
+            </div>
+        </div>
+
+
+        <!--  footer -->
+        <div class="bg-dark  overflow-hidden">
+            <!-- Footer -->
+            <footer class="text-center text-lg-start text-white">
+                <!-- Grid container -->
+                <section class="">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <div class="" id="calendar-container">
+                                <!-- the calender -->
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <div class="">
+                                <!-- Menu -->
+                                <h3>Quick Links</h3>
+                                <ul>
+                                    <li><a href="Homepage.jsp">Home</a></li><br />
+                                    <li><a href="AboutUs.jsp">About Us</a></li><br />
+                                    <li><a href="ContactUs.jsp">Contact Us</a></li><br />
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-center text-md-end">
+                            <div class="">
+                                <div id="logofoot">
+                                    <img src="lak_weddings.png" alt="LogoFoot" width="200">
+                                </div>
+                                <!-- Find us on -->
+                                <h3 class="text-center" style="margin-right: -30px;">Find us on</h3>
+                                <div>
+                                    <!-- Facebook -->
+                                    <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+
+                                    <!-- Twitter -->
+                                    <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+
+                                    <!-- Google -->
+                                    <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                                        <i class="fab fa-google"></i>
+                                    </a>
+
+                                    <!-- Instagram -->
+                                    <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-3">
+                    </div>
+                    <!--Grid row-->
+                </section>
+                <!-- Section: Copyright -->
+                <!-- Grid container -->
+            </footer>
+            <!-- Footer -->
+        </div>
+        <!-- End of .container -->
 
         <script>
             function toggleSearch() {
