@@ -12,8 +12,8 @@
             content="width=device-width, initial-scale=1.0">
         <title>Happy Wedding</title>
 
-        <!-- Link to Custom Styles CSS 
-        <link rel="stylesheet" href="Style.ss">-->
+        <!-- Link to Custom Styles CSS-->
+        <link rel="stylesheet" href="Style.css">
 
         <!-- Link to Font Awesome for icons -->
         <link rel="stylesheet"
@@ -33,19 +33,18 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg bg-dark">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
                 <div id="logofoot">
-                    <img src="lak_weddings.png" alt="LogoFoot" width="150" height="65">
+                    <a href="Homepage.jsp">
+                        <img src="lak_weddings.png" alt="LogoFoot" width="150" height="65">
+                    </a>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                        </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#">Features</a>
                         </li>
@@ -88,7 +87,7 @@
 
 
         <!--  footer -->
-        <div class="bg-dark  overflow-hidden">
+        <div class="foot overflow-hidden">
             <!-- Footer -->
             <footer class="text-center text-lg-start text-white">
                 <!-- Grid container -->
