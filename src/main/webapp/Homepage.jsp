@@ -13,7 +13,7 @@
         <title>Happy Wedding</title>
 
         <!-- Link to Custom Styles CSS-->
-        <link rel="stylesheet" href="Style.css">
+        <link rel="stylesheet" href="./Style.css">
 
         <!-- Link to Font Awesome for icons -->
         <link rel="stylesheet"
@@ -71,17 +71,19 @@
         </nav>
 
         <!--Body of the page-->
-        <div >
+        <div>
             <div class="Home">
-                <p>Lets Make Your Dream Real!!!</p>
+                <h1 class="wedding">Lets Make Your Dream Real!!!</h1>
             </div>
 
-            <div class="Home1">
-                <img alt="slide1" src="">
-            </div>
+            <div class="imageDiv">
+                <div class="Home1">
+                    <img alt="slide1" src="https://cdn.pixabay.com/photo/2017/08/06/20/11/wedding-2595862_640.jpg">
+                </div>
 
-            <div class="Home2">
-                <img alt="slide2" src="">
+                <div class="Home2">
+                    <img alt="slide2" src="https://lirp.cdn-website.com/28cd0bb4/dms3rep/multi/opt/traditional+american+wedding-1920w.jpeg">
+                </div>
             </div>
         </div>
 

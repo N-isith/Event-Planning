@@ -5,3 +5,31 @@
 .foot{
     background-color: #03073c;	
 }
+
+.Home {
+    background-color: yellow;
+    display: block;
+    padding: 20px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin-inline-end: 460px;
+    margin-inline-start: 460px;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.imageDiv{
+    justify-content: space-between;
+}
+
+.Home1{
+    
+}
+
+.Home2{
+	
+}
+
+.wedding{
+    font-weight: bolder;
+}
