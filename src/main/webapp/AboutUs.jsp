@@ -49,7 +49,7 @@
               <a class="nav-link text-white" href="#">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Pricing</a>
+              <a class	="nav-link text-white" href="#">Pricing</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -71,7 +71,14 @@
     </nav>
 
     <!--Body of the page-->
-    <div class="">
+    <div class="aboutUs">
+      <div class="abtus-header">
+        <p>About Wedding Planner</p>
+      </div>
+
+      <div class="descripton">
+        <h1>We're and wedding planner in Colombo,Sri Lanka</h1>
+      </div>
     </div>
 
 

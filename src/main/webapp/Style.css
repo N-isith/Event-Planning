@@ -19,17 +19,51 @@
 }
 
 .imageDiv{
+    display: flex;
     justify-content: space-between;
+    margin-inline: 100px;
+    padding: 30px;
 }
 
-.Home1{
-    
+.Home1 img{
+    width: 550px;
+    height: 350px;
+    border-radius: 30px;
+    transition: transform 300ms;
 }
 
-.Home2{
-	
+.Home2 img{
+    width: 550px;
+    height: 350px;
+    border-radius: 30px;
+    transition: transform 300ms;
+}
+
+.Home1 :hover, 
+.Home2 :hover{
+    transform: scale(1.1);
+    transition: transform 300ms;
+    transition-duration: 300ms;
 }
 
 .wedding{
     font-weight: bolder;
+}
+
+.abtus-header{
+    margin: 20px;
+    margin-inline: 150px;
+    padding: 50px;
+    border-radius: 10px;
+    background-image: url("https://images.mktw.net/im-482789/social");
+}
+
+
+.abtus-header p{
+    font-size: 5pc;
+    font-weight: bolder;
+}
+
+.description {
+    margin: 30px;
 }
