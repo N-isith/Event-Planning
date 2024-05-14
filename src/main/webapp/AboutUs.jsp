@@ -102,7 +102,7 @@
 
             <!-- Grid column -->
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <div class="">
+              <div class="foot-links">
                 <!-- Menu -->
                 <h3>Quick Links</h3>
                 <ul>

@@ -131,13 +131,13 @@
 
                         <!-- Grid column -->
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                            <div class="">
+                            <div class="foot-links">
                                 <!-- Menu -->
                                 <h3>Quick Links</h3>
                                 <ul>
-                                    <li><a href="Homepage.jsp" class="text-warning">Home</a></li><br />
-                                    <li><a href="AboutUs.jsp" class="text-warning">About Us</a></li><br />
-                                    <li><a href="ContactUs.jsp" class="text-warning">Contact Us</a></li><br />
+                                    <li><a href="Homepage.jsp" >Home</a></li><br />
+                                    <li><a href="AboutUs.jsp" >About Us</a></li><br />
+                                    <li><a href="ContactUs.jsp" >Contact Us</a></li><br />
                                 </ul>
                             </div>
                         </div>

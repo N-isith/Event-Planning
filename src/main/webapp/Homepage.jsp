@@ -72,7 +72,7 @@
 
         <!--Body of the page-->
         <div>
-            <div class="Home">
+            <div class="">
                 <h1 class="wedding">Lets Make Your Dream Real!!!</h1>
             </div>
 
@@ -83,6 +83,16 @@
 
                 <div class="Home2">
                     <img alt="slide2" src="https://lirp.cdn-website.com/28cd0bb4/dms3rep/multi/opt/traditional+american+wedding-1920w.jpeg">
+                </div>
+            </div>
+
+            <div>
+                <div class="des">
+                    <h3>Wedding Planner</h3>
+                    <p>Wedding planner will let you to plan your most beautiful day in your life in your desirable way.
+                        With higher facilities, high comfortable hotels, productive crew etc.
+
+                    </p>
                 </div>
             </div>
         </div>
@@ -108,13 +118,13 @@
 
                         <!-- Grid column -->
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                            <div class="">
+                            <div class="foot-links">
                                 <!-- Menu -->
                                 <h3>Quick Links</h3>
                                 <ul>
-                                    <li><a href="Homepage.jsp">Home</a></li><br />
-                                    <li><a href="AboutUs.jsp">About Us</a></li><br />
-                                    <li><a href="ContactUs.jsp">Contact Us</a></li><br />
+                                    <li><a class="" href="Homepage.jsp">Home</a></li><br />
+                                    <li><a class="" href="AboutUs.jsp">About Us</a></li><br />
+                                    <li><a class="" href="ContactUs.jsp">Contact Us</a></li><br />
                                 </ul>
                             </div>
                         </div>
