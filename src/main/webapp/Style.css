@@ -6,7 +6,8 @@
     background-color: #03073c;	
 }
 
-.foot-links ul li a{
+.foot-links ul li a,
+.des h3 a{
     text-decoration: wavy;
     font-size: larger;
     color: #E4A11B;
@@ -14,11 +15,15 @@
 
 .des{
     width: 35%;
-    margin-left: 1.3in;
+    margin-left: 5in;
     background-color: yellow;
     padding: 20px;
     margin-bottom: 10px;
     border-radius: 10px;
+}
+
+.des h3{
+    text-align: center;
 }
 
 .Home {

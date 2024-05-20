@@ -72,25 +72,49 @@
 
         <!--Body of the page-->
         <div>
-            <div class="">
-                <h1 class="wedding">Lets Make Your Dream Real!!!</h1>
-            </div>
-
-            <div class="imageDiv">
-                <div class="Home1">
-                    <img alt="slide1" src="https://cdn.pixabay.com/photo/2017/08/06/20/11/wedding-2595862_640.jpg">
+            <form class="mx-5 my-5 p-4 border border-4 rounded-4 border-warning">
+                <div class="mb-3">
+                    <label for="bridename" class="form-label">Bride's Name</label>
+                    <input type="text" class="form-control" id="bridename">
                 </div>
-
-                <div class="Home2">
-                    <img alt="slide2" src="https://lirp.cdn-website.com/28cd0bb4/dms3rep/multi/opt/traditional+american+wedding-1920w.jpeg">
+                <div class="mb-3">
+                    <label for="groomname" class="form-label">Groom's Name</label>
+                    <input type="text" class="form-control" id="groomname">
                 </div>
-            </div>
-
-            <div>
-                <div class="des">
-                    <h3><a href="Createwed.jsp">Start Making Your Dream Wedding</a></h3>
+                <div class="row">
+                    <div class="mb-3 col-md-6">
+                        <label for="brideage" class="form-label">Bride's Age</label>
+                        <input type="number" class="form-control" id="brideage">
+                    </div>
+                    <div class="mb-3 col-md-6">
+                        <label for="groomage" class="form-label">Groom's Age</label>
+                        <input type="number" class="form-control" id="groomage">
+                    </div>
                 </div>
-            </div>
+                <div class="row">
+                    <div class="mb-3 col-md-6">
+                        <label for="venue" class="form-label">Select the venue you want to have the wedding</label>
+                        <select class="form-select" aria-label="Default select example" id="venue">
+                            <option value="hotel1">Shangri-La Colombo</option>
+                            <option value="hotel2">Galle Face Hotel</option>
+                            <option value="hotel3">Cinnamon Lakeside</option>
+                            <option value="hotel4">Tamarind Hill Galle</option>
+                            <option value="hotel5">Earls Regency Kandy</option>
+                            <option value="hotel6">Amaya Hills Kandy</option>
+                            <option value="hotel7">The Grand Hotel Nuwara Eliya</option>
+                            <option value="hotel8">Anantara Kalutara</option>
+                            <option value="hotel9">Taj Samudra</option>
+                            <option value="hotel10">The Villa Bentota</option>
+                            <option selected></option>
+                        </select>
+                    </div>
+                    <div class="mb-3 col-md-6">
+                        <label for="weddate" class="form-label">Select The planned wedding Date</label>
+                        <input type="date" class="form-control" id="weddate">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Started Planning</button>
+            </form>
         </div>
 
 

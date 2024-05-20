@@ -77,7 +77,7 @@
       </div>
 
       <div class="descripton">
-        <h1>We're and wedding planner in Colombo,Sri Lanka</h1>
+        
       </div>
     </div>
 
